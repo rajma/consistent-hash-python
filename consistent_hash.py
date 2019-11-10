@@ -67,4 +67,4 @@ class ConsistentHash (object):
                 insert_index = 0
             return self.ring[self._sorted_keys[insert_index]]
         else:
-            return None;
+            return None
